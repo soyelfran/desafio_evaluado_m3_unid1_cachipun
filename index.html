@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cachipun!</title>
+    //agregar estilo
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1>CACHIPUN</h1>
+    <div>
+      <label for="jugadas">N&uacute;mero de jugadas:</label>
+      <input type="number" id="jugadas" min="1" value="1" />
+    </div>
+    <div>
+      <button onclick="jugar('piedra')">Piedra</button>
+      <button onclick="jugar('papel')">Papel</button>
+      <button onclick="jugar('tijera')">Tijera</button>
+    </div>
+    <div id="resultado"></div>
+  </body>
+  <!-- link script -->
+  <script src="assets/js/script.js"></script>
+</html>
