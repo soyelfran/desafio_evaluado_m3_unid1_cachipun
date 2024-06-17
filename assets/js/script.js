@@ -29,10 +29,10 @@ function jugar(jugadoropcion) {
     (jugadoropcion === "papel" && opcionesMaquina === "piedra") ||
     (jugadoropcion === "tijera" && opcionesMaquina === "papel")
   ) {
-    _resultado = "¡Ganaste esta ronda!";
+    _resultado = "¡Ganaste esta vuelta!";
     _ganajugador++;
   } else {
-    _resultado = "¡Perdiste esta ronda!";
+    _resultado = "¡Perdiste esta vuelta!";
     _ganamaquina++;
   }
 
